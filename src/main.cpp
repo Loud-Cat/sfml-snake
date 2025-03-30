@@ -2,7 +2,7 @@
 
 int main()
 {
-    auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "CMake Snake Game");
+    auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "SFML Snake Game");
     window.setFramerateLimit(144);
 
     while (window.isOpen())
